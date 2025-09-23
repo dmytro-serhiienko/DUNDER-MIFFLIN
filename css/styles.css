@@ -1,3 +1,148 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+img {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  max-width: 320px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #1b54dd;
+  max-width: 320px;
+}
+
+.header > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header {
+}
+.container {
+}
+.header-logo-link {
+}
+.header-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.header-subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.header-subtitle-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.header-btn {
+  border-radius: 10px;
+  padding: 12px 24px;
+  width: 120px;
+  height: 41px;
+
+  background: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+}
+
+.section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.section-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-list-item {
+  display: flex;
+  flex-direction: column;
+}
+.section-img {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.section-list-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #262626;
+  margin-bottom: 16px;
+}
+
+.section-list-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #262626;
+  margin-bottom: 16px;
+}
+.section-listitem-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1b54dd;
+  margin-bottom: 32px;
+}
+.section-bnt {
+  margin-top: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  border-radius: 2px;
+  padding: 12px 24px;
+  width: 110px;
+  height: 41px;
+  background: #1b54dd;
+
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+
+  margin: 0 auto;
+}
