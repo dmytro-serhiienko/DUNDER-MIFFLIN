@@ -1,5 +1,6 @@
 body {
   font-family: "Inter", sans-serif;
+  background-color: #fff;
 }
 
 img {
@@ -9,6 +10,17 @@ img {
 ol,
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -145,4 +157,53 @@ button {
   color: #fff;
 
   margin: 0 auto;
+}
+/* !FOOTER */
+.footer {
+  background: #e8e8e8;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-list {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+.footer-list-item {
+}
+.footer-list-svg {
+}
+
+.footer-link-site {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #262626;
+}
+
+.footer-text-location,
+.footer-text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: center;
+  color: #262626;
+}
+
+.footer-text-location {
+  margin-top: 8px;
+}
+
+.footer-text {
+  margin-bottom: 16px;
+}
+
+.footer-dmi-img {
+  max-width: 40px;
 }
