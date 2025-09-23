@@ -59,6 +59,11 @@ button {
 }
 .header-logo-link {
 }
+
+.header-img {
+  border-radius: 10px;
+}
+
 .header-title {
   font-family: "Inter", sans-serif;
   font-weight: 700;
