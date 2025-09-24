@@ -76,15 +76,25 @@ button {
   }
 }
 
-.header {
-}
-.container {
-}
-.header-logo-link {
+@media screen and (min-width: 300px) {
+  .header-img {
+    border-radius: 10px;
+  }
+
+  .header-tab-img {
+    display: none;
+  }
 }
 
-.header-img {
-  border-radius: 10px;
+@media screen and (min-width: 600px) {
+  .header-img {
+    display: none;
+  }
+
+  .header-tab-img {
+    display: block;
+    border-radius: 10px;
+  }
 }
 
 .header-title {
@@ -225,10 +235,6 @@ footer > .container {
   display: flex;
   gap: 32px;
   margin-bottom: 16px;
-}
-.footer-list-item {
-}
-.footer-list-svg {
 }
 
 .footer-link-site {
